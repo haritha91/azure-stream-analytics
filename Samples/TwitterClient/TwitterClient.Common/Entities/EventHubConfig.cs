@@ -15,9 +15,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwitterClient
+namespace TwitterClient.Common
 {
-    class EventHubConfig
+    public class EventHubConfig
     {
         public string ConnectionString;
         public string EventHubName;
